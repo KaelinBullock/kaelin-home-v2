@@ -1,0 +1,48 @@
+.app__about {
+   display: flex;
+   font-family: var(--font-base);
+   flex-direction: column;
+   align-items: flex-start;
+}
+
+.app__about-skills {
+   display: flex;
+   padding: 0;
+   margin: 0;
+   font-family: var(--font-base);
+}
+
+.app__about-description {
+   display: flex;
+   align-items: flex-start;
+   text-align: left;
+}
+
+@media screen and (max-width: 850px) {
+   .app__contact-container {
+      flex-direction: column;
+      width: 100%;
+   }
+
+   .app__contact-container-info {
+      width: 100%;
+   }
+
+   .app__contact-container-button {
+      width: 100%;
+      height: 3rem;
+      padding: 1rem 0;
+      display: flex;
+      justify-content: center;
+      text-align: center;
+      flex-direction: row;
+   }
+
+   .app__contact-container-button-overlay {
+      display: none;
+   }
+
+   .app__about-skills {
+      line-height: 150px;
+   }
+}

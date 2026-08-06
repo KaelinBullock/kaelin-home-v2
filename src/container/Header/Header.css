@@ -1,0 +1,34 @@
+.app__header {
+   width: 100%;
+   height: 5rem;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   background: var(--color-black);
+   padding:s 1rem 2rem;
+}
+
+.app__header-logo {
+   display: flex;
+   justify-content: flex-start;
+   align-items: center;
+}
+
+.app__header-logo img {
+   width: 50px;
+}
+
+.app__header-links {
+   flex: 1;
+   display: flex;
+   justify-content: right;
+   align-items: center;
+
+   list-style: none;
+}
+
+.app__header-links li {
+   margin: 0 1rem;
+   cursor: pointer;
+   color: var(--color-linen);
+}
