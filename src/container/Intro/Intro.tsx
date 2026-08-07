@@ -4,9 +4,7 @@ import { AiOutlineDash } from "react-icons/ai";
 import Laptop from '../../constants/Stairs';
 import './Intro.css';
 
-interface IntroProps {}
-
-const Intro: FC<IntroProps> = () => (
+const Intro = () => (
   <div className="app_intro app__bg section__padding">
     <div className='app_intro-name'>
       <p>Freelancer</p>

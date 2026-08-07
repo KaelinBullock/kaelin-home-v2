@@ -11,7 +11,6 @@ const Test = () => {
         animate={{
           rotate: [0, 360],
         }}
-        // @ts-ignore no problem in operation, although type error appears.
         transition={{
           duration: 5,
           repeat: Infinity,

@@ -17,7 +17,7 @@ const Discover = () => {
   const { data, isFetching, error } = useGetSongsByGenreQuery(genreListId || 'POP');
   const color = useColorModeValue('black', 'white');
 
-  // eslint-disable-next-line no-console
+   
   if (isFetching){ console.log('is fetching..');}
 
   if (error) return <Error />;

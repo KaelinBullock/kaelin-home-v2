@@ -3,16 +3,14 @@ import './Projects.css';
 
 import Images from '../../constants/Images'
 
-interface ProjectsProps {}
-
-const Projects: FC<ProjectsProps> = () => (
+const Projects = () => (
   <div className="app__projects app__bg section__padding">
     <h1 className='app__projects_header headtext'>Projects</h1>
     <p>Projects I worked on, with teammates</p>
 
     <div className='app__projects-container'>
       <div className='app__projects-img'>
-        <img  src={Images.notification}></img>
+        <img alt="alt"  src={Images.notification.src}></img>
       </div>
       <div className='app__projects-info'>
         <h1>Notifications</h1>
@@ -32,13 +30,13 @@ const Projects: FC<ProjectsProps> = () => (
         <p className='p__notosans app__projects-description'>Allows users to submit claims for items</p>
       </div>
       <div className='app__projects-img'>
-        <img  src={Images.fragile}></img>
+        <img alt="alt" src={Images.fragile.src}></img>
       </div>
     </div>
 
     <div className='app__projects-container'>
       <div className='app__projects-img'>
-          <img  src={Images.stats}></img>
+          <img alt="alt"  src={Images.stats.src}></img>
         </div>      
         <div className='app__projects-info'>
         <h1>Integrating Third Party Data</h1>

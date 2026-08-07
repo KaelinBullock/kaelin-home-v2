@@ -30,7 +30,7 @@ const MusicPlayer = () => {
     if (currentSongs.length){ dispatch(playPause(true)); 
       
       if(typeof state !== 'undefined')
-        // eslint-disable-next-line no-console
+         
         console.log(state);
       }
   // eslint-disable-next-line react-hooks/exhaustive-deps

@@ -1,5 +1,3 @@
-import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 import About from './container/About/About';
 import Intro from './container/Intro/Intro';

@@ -8,7 +8,7 @@ const Header: FC<HeaderProps> = () => (
   <nav>
     <div className="app__header">
       <div className='app__header-logo'>
-        <img src={Images.whitelogocircle} alt="images" />
+        <img src={Images.whitelogocircle.src} alt="images" />
       </div>
       <ul className='app__header-links'>
         <li className='p__notosans app__header-link'>About</li>

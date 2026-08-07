@@ -11,7 +11,7 @@ export function postAuthentication() {
       return response.data;
     })
     .catch((error) => {
-      // eslint-disable-next-line no-console
+       
       console.log('error ' + error);
    });
 };
@@ -22,7 +22,7 @@ export function getCompanyList(setCompanyList) {
          setCompanyList(response.data);
      })
      .catch((error) => {
-        // eslint-disable-next-line no-console
+         
         console.log('error ' + error);
      });
 };
@@ -33,7 +33,7 @@ export function getCompaniesByName(name, setCompanyList) {
       setCompanyList(response.data);
    })
    .catch((error) => {
-      // eslint-disable-next-line no-console
+       
       console.log('error ' + error);
    });
 };
@@ -46,7 +46,7 @@ export function getCompaniesByName(name, setCompanyList) {
          return response.data;
       })
       .catch((error) => {
-         // eslint-disable-next-line no-console
+          
          console.log('error ' + error);
       });
  };
@@ -57,7 +57,7 @@ export function getCompaniesByName(name, setCompanyList) {
          setContact(response.data);
       })
       .catch((error) => {
-         // eslint-disable-next-line no-console
+          
          console.log('error ' + error);
       });
  };
@@ -68,7 +68,7 @@ export function getCompaniesByName(name, setCompanyList) {
           return response.data;
        })
        .catch((error) => {
-          // eslint-disable-next-line no-console
+           
           console.log('error ' + error);
        });
   };
@@ -81,7 +81,7 @@ export function getCompaniesByName(name, setCompanyList) {
           return response.data;
        })
        .catch((error) => {
-         // eslint-disable-next-line no-console
+          
           console.log('error ' + error);
        });
   };
@@ -91,7 +91,7 @@ export function getCompaniesByName(name, setCompanyList) {
          setLocation(response.data);
       })
       .catch((error) => {
-         // eslint-disable-next-line no-console
+          
          console.log('error ' + error);
       });
  };
@@ -102,7 +102,7 @@ export function getCompaniesByName(name, setCompanyList) {
          setLocations(response.data);
        })
        .catch((error) => {
-         // eslint-disable-next-line no-console
+          
           console.log('error ' + error);
        });
   };
@@ -115,7 +115,7 @@ export function getCompaniesByName(name, setCompanyList) {
          setResponse(response.data);
        })
        .catch((error) => {
-         // eslint-disable-next-line no-console
+          
           console.log('error ' + error);
        });
   };
@@ -126,7 +126,7 @@ export function getCompaniesByName(name, setCompanyList) {
          setShipment(response.data);
        })
        .catch((error) => {
-         // eslint-disable-next-line no-console
+          
           console.log('error ' + error);
        });
   };
@@ -139,7 +139,7 @@ export function getCompaniesByName(name, setCompanyList) {
          setResponse(response.data);
        })
        .catch((error) => {
-         // eslint-disable-next-line no-console
+          
           console.log('error ' + error);
        });
   };
