@@ -9,7 +9,7 @@ import MyImage from './my-image';
 export default function Cover() {
   return (
     <Box
-      h="100vh"
+      h="100dvh"
       bg="transparent"
       position="relative"
       alignItems="center"

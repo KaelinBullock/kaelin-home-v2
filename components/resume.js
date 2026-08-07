@@ -21,7 +21,7 @@ export default function Resume() {
   return (
     <Box
       bg="transparent"
-      h={{xl:'100vh', md:'150vh',sm:'260vh',base:'300vh'}}
+      h={{xl:'100vh', md:'150vh',sm:'260vh',base:'260vh'}}
       pl={{md:'80px', base:'3.5rem'}}
       py="40px"
       position="relative"

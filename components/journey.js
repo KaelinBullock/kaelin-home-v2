@@ -82,12 +82,17 @@ export default function Journey() {
       {/* Timeline */}
 
       <Box
-        position="absolute"
-        left="50%"
-        top={{md:'20rem', base:'12rem'}}
-        bottom={{xl:'7rem',lg:'18rem',md:'18rem',sm:'26rem', base:'22rem'}}
-        w="2px"
-        bg="gray.200"
+        osition="relative"
+    _before={{
+        content: '""',
+        position: "absolute",
+        left: "50%",
+        top: 0,
+        bottom: 0,
+        w: "2px",
+        bg: "gray.200",
+        transform: "translateX(-50%)",
+    }}
       />
 
       {/* 2018 */}
