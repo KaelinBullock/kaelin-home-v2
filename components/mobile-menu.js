@@ -43,6 +43,34 @@ export default function MobileMenu() {
          }>
             Story
          </MenuItem>
+         <MenuItem onClick={() =>
+            document.getElementById('journey')?.scrollIntoView({
+            behavior: 'smooth',
+            })
+         }>
+            Journey
+         </MenuItem>
+         <MenuItem onClick={() =>
+            document.getElementById('classroom')?.scrollIntoView({
+            behavior: 'smooth',
+            })
+         }>
+            Classroom
+         </MenuItem>
+         <MenuItem onClick={() =>
+            document.getElementById('resume')?.scrollIntoView({
+            behavior: 'smooth',
+            })
+         }>
+            Resume
+         </MenuItem>
+         <MenuItem onClick={() =>
+            document.getElementById('contact')?.scrollIntoView({
+            behavior: 'smooth',
+            })
+         }>
+            Contact
+         </MenuItem>
       </MenuList>
    </Menu>
    </Box>

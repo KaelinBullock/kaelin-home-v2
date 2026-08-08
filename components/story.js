@@ -22,11 +22,6 @@ export default function Story() {
       position="relative"
       bg="transparent"
       padding={0}
-      onMouseMove={(e) => {
-        const x = e.clientX / window.innerWidth - 0.5;
-        const y = e.clientY / window.innerHeight - 0.5;
-        setMouse({ x, y });
-      }}
     >
       <Box
         position="relative"
