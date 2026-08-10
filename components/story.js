@@ -62,7 +62,7 @@ export default function Story() {
 
           <GridItem  justifyContent="center" >
             <Image
-              src="/images/Arkansas.jpg"
+              src="/images/Arkansas.webp"
               position="relative"
               alt="TreeImage"
               h={{xl:'30rem', md:'20rem', base:'12rem'}}

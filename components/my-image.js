@@ -25,7 +25,7 @@ export default function MyImage() {
       }}
     >
       <MotionImage
-        src="/images/heart.png"
+        src="/images/heart.webp"
         alt="Portrait"
         position="absolute"
         bottom={{base:'-.5rem', md:'-.4rem', xl:'0rem'}}

@@ -39,7 +39,7 @@ export default function Contact() {
         </Text>
 
         <Image
-          src="/images/mystamp.png"
+          src="/images/mystamp.webp"
           alt="stamp"
           position="relative"
           w={{md:'20rem', base:'10rem'}}
