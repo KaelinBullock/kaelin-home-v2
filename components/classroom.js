@@ -22,6 +22,7 @@ export default function Classroom() {
       h={{xl:'100vh', lg:'120vh', base:'160vh'}}
       position="relative"
       pl={{md:'80px', base:'3.5rem'}}
+      pt="120px"
       flexDir={{md:'row', base:'column'}}
       onMouseMove={(e) => {
         const x = e.clientX / window.innerWidth - 0.5;
