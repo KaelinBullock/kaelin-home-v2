@@ -58,7 +58,7 @@ export default function Resume() {
       {/* Main Grid */}
 
       <Grid
-        templateColumns={{md:'1fr 1.5fr 1.6fr 1fr', md:"1fr 1fr", base:'1fr'}}
+        templateColumns={{xl:'1fr 1.5fr 1.6fr 1fr', md:"1fr 1fr", base:'1fr'}}
         h="70vh"
       >
         <GridItem
@@ -234,8 +234,8 @@ export default function Resume() {
 
         </GridItem>
         <GridItem
-          px={{md:10,md: 0, base: 0 }}
-          pt={{md:0,base:'2rem'}}
+          px={{xl:10,md: 0, base: 0 }}
+          pt={{md:0, base:'2rem'}}
           borderLeft={{xl: "1px solid", base: "none"}}
           borderColor={{md:'gray.200', base:'transparent'}}
         >
