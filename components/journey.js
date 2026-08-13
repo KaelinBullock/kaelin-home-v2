@@ -29,7 +29,7 @@ export default function Journey() {
 
   return (
     <Box
-      h={{xl:'100vh', base:'120vh'}}
+      h={{xl:'100vh', md:"100vh", base:'120vh'}}
       bg="white"
       position="relative"
       overflow="hidden"
@@ -82,20 +82,19 @@ export default function Journey() {
       {/* Timeline */}
 
       <Box
-        osition="relative"
-    _before={{
-        content: '""',
-        position: "absolute",
-        left: "50%",
-        top: 0,
-        bottom: 0,
-        w: "2px",
-        bg: "gray.200",
-        transform: "translateX(-50%)",
-    }}
+        _before={{
+            content: '""',
+            position: "absolute",
+            left: "50%",
+            top: 0,
+            bottom: 0,
+            w: "2px",
+            bg: "gray.200",
+            transform: "translateX(-50%)",
+        }}
       />
 
-      {/* 2018 */}
+      {/* 2013 */}
 
       <Flex
         position="absolute"
@@ -137,7 +136,9 @@ export default function Journey() {
           h="18px"
           bg="#2E5DBD"
           borderRadius="50%"
-          mt={{md: '9rem',base:'1rem'}}
+          mt={{md: '2rem',base:'1rem'}}
+          display={{md:"block", base:"none"}}
+
         />
 
         <Box w="40%" />
@@ -147,7 +148,7 @@ export default function Journey() {
 
       <Flex
         position="absolute"
-        top="15rem"
+        top={{xl:"15rem", md:"13rem", base:"10rem"}}
         left="15%"
         w="70%"
         justify="space-between"
@@ -155,11 +156,12 @@ export default function Journey() {
         <Box w="40%" />
 
         <Box
+          display={{md:"block", base:"none"}}
           w="18px"
           h="18px"
           bg="#2E5DBD"
           borderRadius="50%"
-          mt={{md: '9rem',base:'1rem'}}
+          mt={{md: '2rem',base:'1rem'}}
         />
 
         <Box w="40%">
@@ -204,7 +206,7 @@ export default function Journey() {
 
       <Flex
         position="relative"
-        top="35rem"
+        top={{xl:"23rem", md:"30rem",base:"39rem"}}
         left="15%"
         w="70%"
         justify="space-between"
@@ -238,11 +240,13 @@ export default function Journey() {
         </Box>
 
         <Box
+          display={{md:"block", base:"none"}}
+
           w="18px"
           h="18px"
           bg="#2E5DBD"
           borderRadius="50%"
-          mt={{md: '9rem',base:'1rem'}}
+          mt={{md: '2rem',base:'1rem'}}
         />
 
         <Box w="40%" />
@@ -252,7 +256,7 @@ export default function Journey() {
 
       <Flex
         position="absolute"
-        top="40rem"
+        top={{xl:"32rem", base:"38rem"}}
         left="15%"
         w="70%"
         justify="space-between"
@@ -260,17 +264,18 @@ export default function Journey() {
         <Box w="40%" />
 
         <Box
+          display={{md:"block", base:"none"}}
           w="18px"
           h="18px"
           bg="#2E5DBD"
           borderRadius="50%"
-          mt={{md: '9rem',base:'1rem'}}
+          mt={{md: '2rem',base:'1rem'}}
         />
 
         <Box w="40%">
           <Heading
             fontFamily="Didot"
-            fontSize={{md:'4rem', base:'2rem'}}
+            fontSize={{md:'3rem', base:'2rem'}}
             fontWeight="300"
             color="#2E5DBD"
           >

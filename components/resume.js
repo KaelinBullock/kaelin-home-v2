@@ -21,7 +21,7 @@ export default function Resume() {
   return (
     <Box
       bg="transparent"
-      h={{xl:'100vh', md:'150vh',sm:'260vh',base:'260vh'}}
+      h={{xl:'100vh', md:'150vh',sm:'260vh',base:'270vh'}}
       pl={{md:'80px', base:'3.5rem'}}
       py="40px"
       position="relative"
@@ -168,7 +168,6 @@ export default function Resume() {
               fontWeight="600"
               mb={4}
             >
-              International School
               Bangkok
             </Text>
 

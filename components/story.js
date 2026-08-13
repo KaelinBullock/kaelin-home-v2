@@ -54,18 +54,18 @@ export default function Story() {
             >
               I&apos;m from
               <br />
-              Little Rock Arkansas
+              Little Rock, Arkansas
               <br/>
             </Heading>
           </GridItem>
 
 
-          <GridItem  justifyContent="center" >
+          <GridItem display="flex" justifyContent="flex-start">
             <Image
               src="/images/Arkansas.webp"
               position="relative"
               alt="TreeImage"
-              h={{xl:'30rem', md:'20rem', base:'12rem'}}
+              h={{xl:'23rem', md:'20rem', base:'12rem'}}
               objectFit="contain"
               zIndex={2}
             />
@@ -83,7 +83,7 @@ export default function Story() {
               fontSize="md"
             >
               I&apos;m from the U.S.A. I was born in raised in Little Rock Arkansas. I went to The University of Arkansas to study
-              computer science.  I worked at a large corporations for years, and quit to travel, and do freelance work.
+              computer science.  I worked at a large corporation for years, and quit to travel, and do freelance work.
             </Text>
           </GridItem>
 
@@ -99,7 +99,7 @@ export default function Story() {
           </GridItem>
         </Grid>
       </Box>
-      <Box
+      {/* <Box
         display={{xl:'block', base:'none'}}
         position="absolute"
         left="80px"
@@ -107,7 +107,7 @@ export default function Story() {
         w="180px"
         h="1px"
         bg="gray.300"
-      />
+      /> */}
     </Box>
   );
 }

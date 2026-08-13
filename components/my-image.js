@@ -29,7 +29,7 @@ export default function MyImage() {
         alt="Portrait"
         position="absolute"
         bottom={{base:'-.5rem', md:'-.4rem', xl:'0rem'}}
-        h={{xl:'55rem', md:'60rem', base:'26rem'}}
+        h={{xl:'50rem', md:'50rem', base:'26rem'}}
         objectFit="contain"
         zIndex={2}
         clipPath={{md:'inset(0 0 0 0)', xl:'inset(0 0 0 0)', base:'inset(0 0 0 0)'}}

@@ -72,16 +72,16 @@ export default function Classroom() {
       >
         <GridItem>
           <Image
-          src="/images/classroom.jpg"
-            w={{md:'40rem',base:'20rem'}}
-            h={{md:'30rem', base:'20rem'}}
-            mt="2rem"
-            bg="blue"
-            objectFit="cover"
-            objectPosition="center 30%"
-            borderRadius="20px"
-            justifySelf="left"
-            alt="classroomImage"
+            src="/images/classroom.jpg"
+              w={{md:'40rem',base:'20rem'}}
+              h={{md:'25rem', base:'20rem'}}
+              mt="2rem"
+              bg="blue"
+              objectFit="cover"
+              objectPosition="center 30%"
+              borderRadius="20px"
+              justifySelf="left"
+              alt="classroomImage"
           />
           <Text
             position="relative"
@@ -115,7 +115,7 @@ export default function Classroom() {
           <Heading
             fontFamily="Didot"
             fontWeight="300"
-          fontSize={{md:'3rem', base:'2rem'}}
+          fontSize="2rem"
             mb={8}
           >
             Students learn
@@ -136,14 +136,15 @@ export default function Classroom() {
             <Heading
               fontSize="lg"
               color="#2E5DBD"
+              pb={4}
             >
               PROJECTS
             </Heading>
 
             <Text color="gray.600">
-              Real software.
+              Real software
               <br />
-              Real challenges.
+              Real challenges
               <br />
               Websites
               <br />

@@ -40,7 +40,7 @@ export default function Cover() {
                 fontWeight="300"
                 lineHeight=".82"
                 color="#16213E"
-                fontSize={{xl:'10rem',md:'6rem', base:'4rem'}}
+                fontSize={{xl:'6rem',md:'4rem', base:'4rem'}}
               >
                 KAELIN<br/>BULLOCK
               </Heading>
