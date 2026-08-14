@@ -25,14 +25,13 @@ export default function Cover() {
       >
         <Box
           position="relative"
-          flex="10"
+          flex="5"
           alignContent={{xl:'flex-start', base:'center'}}
-          // bg=
         >
           <Box
             position="relative"
             zIndex={3}
-            pt={{xl:'13rem', base:'7rem'}}
+            pt={{xl:'10rem', base:'7rem'}}
           >
             <Box display="flex">
               <Heading

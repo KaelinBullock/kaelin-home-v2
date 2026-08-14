@@ -95,10 +95,10 @@ export default function Classroom() {
           mt={3}
           fontFamily="Didot, serif"
           fontWeight="300"
-          fontSize={{md:'3rem', base:'2rem'}}
+          fontSize={{md:'2rem', base:'2rem'}}
           lineHeight=".95"
           color="#16213E"
-          w={{md:'40rem', base:'100%'}}
+          w={{md:'35rem', base:'100%'}}
         >
           Learning should feel like exploration.
         </Heading>
@@ -116,7 +116,7 @@ export default function Classroom() {
             fontFamily="Didot"
             fontWeight="300"
           fontSize="2rem"
-            mb={8}
+            mb={2}
           >
             Students learn
             best by creating.
@@ -125,7 +125,7 @@ export default function Classroom() {
           <Text
             color="gray.600"
             lineHeight="2"
-            mb={10}
+            mb={2}
           >
             I believe students remember what they build.
             Every lesson is designed around creativity,

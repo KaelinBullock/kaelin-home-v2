@@ -65,7 +65,7 @@ export default function Story() {
               src="/images/Arkansas.webp"
               position="relative"
               alt="TreeImage"
-              h={{xl:'23rem', md:'20rem', base:'12rem'}}
+              h={{xl:'20rem', md:'20rem', base:'12rem'}}
               objectFit="contain"
               zIndex={2}
             />
@@ -73,7 +73,7 @@ export default function Story() {
         </Grid>
 
         <Grid
-          mt="3rem"
+          mt="1rem"
           templateColumns={{med:'1fr 1fr', base:'1fr'}}
         >
           <GridItem w={{md:'50%',base:'70%'}}>

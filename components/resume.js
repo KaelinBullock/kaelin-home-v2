@@ -23,13 +23,13 @@ export default function Resume() {
       bg="transparent"
       h={{xl:'100vh', md:'150vh',sm:'260vh',base:'270vh'}}
       pl={{md:'80px', base:'3.5rem'}}
-      py="40px"
+      py="10px"
       position="relative"
     >
       <HStack
         justify="space-between"
         align="start"
-        mb={14}
+        mb={2}
       >
 
         <Box>
