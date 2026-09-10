@@ -31,7 +31,7 @@ export default function Cover() {
           <Box
             position="relative"
             zIndex={3}
-            pt={{xl:'10rem', base:'7rem'}}
+            pt={{xl:'10rem', sm:'7rem', base:"4rem"}}
           >
             <Box display="flex">
               <Heading
@@ -48,7 +48,7 @@ export default function Cover() {
             <Box display="flex" h="100%" alignItems="center" flexDir={{xl:'row', md:'row', base:'column'}}>
               <Box display="flex" flexDirection="column" h="100%">
                 <Text
-                  mt={8}
+                  mt={{sm: 8, base: 2}}
                   fontSize="4xl"
                   fontFamily="Didot, serif"
                   lineHeight="1.25"
@@ -69,7 +69,7 @@ export default function Cover() {
                 </Text>
 
                 <Text
-                  mt={8}
+                  mt={{sm: 8, base: 2}}
                   fontSize="lg"
                   color="gray.600"
                   maxW="330px"

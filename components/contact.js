@@ -32,7 +32,7 @@ export default function Contact() {
           color="#2E5DBD"
           letterSpacing={{md:'7px', base:'2px'}}
           fontWeight="400"
-          mb={12}
+          mb={{sm: 12, base: 1}}
           fontSize={{md:'60px', base:'30px'}}
         >
           CONTACT ME
@@ -50,8 +50,8 @@ export default function Contact() {
 
       <Grid
         templateColumns={{md:'1fr 1fr 1fr', base:'1fr'}}
-        gap={20}
-        mt={8}
+        gap={{sm: 20, base: 10}}
+        mt={{sm: 8, base: 2}}
       >
 
         {/* Left Column */}
@@ -87,7 +87,7 @@ export default function Contact() {
         
         <GridItem
           px={{md:10, base:'0'}}
-          borderLeft="1px solid"
+          borderLeft={{sm: "1px solid", base: "none"}}
           borderColor="gray.200"
         >
            <Text
@@ -108,7 +108,7 @@ export default function Contact() {
 
         <GridItem
           px={{md:10, base:'0'}}
-          borderLeft="1px solid"
+          borderLeft={{sm: "1px solid", base: "none"}}
           borderColor="gray.200"
         >
            <Text
@@ -116,7 +116,7 @@ export default function Contact() {
             fontWeight="700"
             mb={5}
             >
-               CURRENTLY LOOKING FOR
+              CURRENTLY LOOKING FOR
             </Text>
 
             <VStack
@@ -125,8 +125,6 @@ export default function Contact() {
             color="gray.700"
             >
             <Text>International Teaching Positions</Text>
-
-        
             </VStack>   
 
         </GridItem>

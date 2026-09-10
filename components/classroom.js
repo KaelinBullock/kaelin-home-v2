@@ -19,10 +19,15 @@ export default function Classroom() {
 
   return (
     <Box
-      h={{xl:'100vh', lg:'120vh', base:'160vh'}}
+      h={{xl:'100vh', lg:'120vh', sm:'160vh', base: "170vh"}}
+      sx={{
+        "@media screen and (min-width: 400px) and (max-width: 480px)": {
+          height: "130vh",
+        },
+      }}
       position="relative"
-      pl={{md:'80px', base:'3.5rem'}}
-      pt="120px"
+      pl={{md:'80px', sm:'3.5rem', base:'1rem'}}
+      pt={{sm: "120px", base:"10px"}}
       flexDir={{md:'row', base:'column'}}
       onMouseMove={(e) => {
         const x = e.clientX / window.innerWidth - 0.5;

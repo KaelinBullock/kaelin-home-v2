@@ -28,8 +28,14 @@ export default function MyImage() {
         src="/images/heart.webp"
         alt="Portrait"
         position="absolute"
-        bottom={{base:'-.5rem', md:'-.4rem', xl:'0rem'}}
-        h={{xl:'40rem', md:'40rem', base:'26rem'}}
+        bottom={{base:'0', md:'-.4rem', xl:'0rem'}}
+        h={{xl:'40rem', md:'40rem', sm:'26rem', base:"24rem"}}
+        sx={{
+          "@media screen and (min-width: 400px) and (max-width: 480px)": {
+            h: "40rem",
+            bottom: "-3rem"
+          },
+        }}
         objectFit="contain"
         zIndex={2}
         clipPath={{md:'inset(0 0 0 0)', xl:'inset(0 0 0 0)', base:'inset(0 0 0 0)'}}

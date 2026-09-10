@@ -17,14 +17,14 @@ export default function MobileMenu() {
       w="100%"
       bg="transparent"
       zIndex={100}
-      px={5}
+      px={2}
       pt={8}
       display="flex"
    >
    <Menu>
       <MenuButton
          as={IconButton}
-         icon={<HamburgerIcon boxSize={10}/>}
+         icon={<HamburgerIcon boxSize={8}/>}
          variant="ghost"
          aria-label="Navigation"
       />

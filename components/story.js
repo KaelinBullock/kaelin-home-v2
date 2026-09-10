@@ -25,8 +25,8 @@ export default function Story() {
     >
       <Box
         position="relative"
-        left="80px"
-        top="110px"
+        ml={{sm:"80px", base:"40px"}}
+        mt={{sm: "110px", base: "10px"}}
         zIndex={2}
 
         w="100%"
@@ -36,7 +36,7 @@ export default function Story() {
           color="#2E5DBD"
           letterSpacing="3px"
           fontWeight="600"
-          mb={5}
+          mb={{sm: 5, base: 2}}
         >
           MY STORY
         </Text>

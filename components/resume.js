@@ -21,8 +21,13 @@ export default function Resume() {
   return (
     <Box
       bg="transparent"
-      h={{xl:'100vh', md:'150vh',sm:'260vh',base:'270vh'}}
-      pl={{md:'80px', base:'3.5rem'}}
+      h={{xl:'100vh', md:'150vh',sm:'260vh', base:'300vh'}}
+      sx={{
+        "@media screen and (min-width: 400px) and (max-width: 480px)": {
+          height: "240vh",
+        },
+      }}
+      pl={{md:'80px', sm:'3.5rem', base:'1rem'}}
       py="10px"
       position="relative"
     >
